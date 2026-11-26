@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistem PPRS GIATMARA</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      margin: 0;
+      color: #1e293b;
+    }
+    header {
+      background: #123b68;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    main {
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 20px;
+    }
+    .panel {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #00000012;
+    }
+    h2 { color: #123b68; }
+    .menu {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .menu button {
+      padding: 20px;
+      border: 0;
+      border-radius: 8px;
+      background: #e0edfa;
+      color: #123b68;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    .menu button:hover { background: #c7ddf5; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SISTEM PPRS</h1>
+    <p>Pengurusan Program Perumahan Rakyat Sejahtera</p>
+    <strong>GIATMARA</strong>
+  </header>
+
+  <main>
+    <section class="panel">
+      <h2>Selamat Datang</h2>
+      <p>Sistem pengurusan dokumen dan maklumat penerima PPRS.</p>
+
+      <div class="menu">
+        <button onclick="alert('Modul Maklumat Penerima akan dibangunkan.')">
+          Maklumat Penerima
+        </button>
+        <button onclick="alert('Modul Maklumat Kontraktor akan dibangunkan.')">
+          Maklumat Kontraktor
+        </button>
+        <button onclick="alert('Modul Pengurusan Borang akan dibangunkan.')">
+          Pengurusan Borang
+        </button>
+        <button onclick="alert('Modul Semakan Dokumen akan dibangunkan.')">
+          Semakan Dokumen
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer>Sistem PPRS GIATMARA</footer>
+</body>
+</html>
